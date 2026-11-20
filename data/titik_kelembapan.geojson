@@ -1,0 +1,545 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 1,
+        "Name": "Kampung Bandar",
+        "Waktu": "09:04",
+        "Suhu": 27.0,
+        "Kelembapan": 87.0,
+        "Vegetasi": "Jarang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.441231,
+          0.537681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 2,
+        "Name": "Kampung Dalam",
+        "Waktu": "09:07",
+        "Suhu": 28.0,
+        "Kelembapan": 81.0,
+        "Vegetasi": "Jarang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.445678,
+          0.536008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 3,
+        "Name": "Pesisir",
+        "Waktu": "09:09",
+        "Suhu": 28.0,
+        "Kelembapan": 80.0,
+        "Vegetasi": "Jarang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.447661,
+          0.536978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 4,
+        "Name": "Kota Tinggi",
+        "Waktu": "09:10",
+        "Suhu": 28.0,
+        "Kelembapan": 81.0,
+        "Vegetasi": "Sedang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.447765,
+          0.529394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 5,
+        "Name": "Sumahilang",
+        "Waktu": "09:12",
+        "Suhu": 28.0,
+        "Kelembapan": 81.0,
+        "Vegetasi": "Jarang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.447617,
+          0.522549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 6,
+        "Name": "Simpang Empat",
+        "Waktu": "09:13",
+        "Suhu": 28.0,
+        "Kelembapan": 81.0,
+        "Vegetasi": "Jarang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.447593,
+          0.514124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 7,
+        "Name": "Jadirejo",
+        "Waktu": "09:15",
+        "Suhu": 28.0,
+        "Kelembapan": 80.0,
+        "Vegetasi": "Tidak ada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.447438,
+          0.518229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 8,
+        "Name": "Wonorejo",
+        "Waktu": "09:16",
+        "Suhu": 28.0,
+        "Kelembapan": 81.0,
+        "Vegetasi": "Sedang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.449304,
+          0.510251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 9,
+        "Name": "Cinta Raja",
+        "Waktu": "09:18",
+        "Suhu": 28.0,
+        "Kelembapan": 81.0,
+        "Vegetasi": "Sedang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450756,
+          0.507432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 10,
+        "Name": "Tengkerang Selatan",
+        "Waktu": "09:21",
+        "Suhu": 29.0,
+        "Kelembapan": 79.0,
+        "Vegetasi": "Jarang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.455704,
+          0.496858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 11,
+        "Name": "Simpang Tiga",
+        "Waktu": "09:29",
+        "Suhu": 29.0,
+        "Kelembapan": 76.0,
+        "Vegetasi": "Jarang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.454156,
+          0.476097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 12,
+        "Name": "Maharatu",
+        "Waktu": "09:34",
+        "Suhu": 29.0,
+        "Kelembapan": 73.0,
+        "Vegetasi": "Rimbun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.454212,
+          0.467516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 13,
+        "Name": "Sidomulyo Timur",
+        "Waktu": "09:42",
+        "Suhu": 29.0,
+        "Kelembapan": 75.0,
+        "Vegetasi": "Sedang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.447101,
+          0.479222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 14,
+        "Name": "Labuh Baru Barat",
+        "Waktu": "09:59",
+        "Suhu": 29.0,
+        "Kelembapan": 77.0,
+        "Vegetasi": "Rimbun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.394061,
+          0.500172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 15,
+        "Name": "Air Hitam",
+        "Waktu": "10:15",
+        "Suhu": 29.0,
+        "Kelembapan": 75.0,
+        "Vegetasi": "Rimbun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.402118,
+          0.529414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 16,
+        "Name": "Tampan",
+        "Waktu": "10:17",
+        "Suhu": 29.0,
+        "Kelembapan": 75.0,
+        "Vegetasi": "Rimbun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.403538,
+          0.538599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 17,
+        "Name": "Sri Meranti",
+        "Waktu": "10:20",
+        "Suhu": 29.0,
+        "Kelembapan": 75.0,
+        "Vegetasi": "Rimbun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.401958,
+          0.580943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 18,
+        "Name": "Palas",
+        "Waktu": "10:21",
+        "Suhu": 29.0,
+        "Kelembapan": 76.0,
+        "Vegetasi": "Sedang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.398981,
+          0.555019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 19,
+        "Name": "Umban Sari",
+        "Waktu": "10:28",
+        "Suhu": 29.0,
+        "Kelembapan": 75.0,
+        "Vegetasi": "Rimbun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4253,
+          0.569038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 20,
+        "Name": "Lembah Damai",
+        "Waktu": "10:49",
+        "Suhu": 31.0,
+        "Kelembapan": 69.0,
+        "Vegetasi": "Rimbun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4369232,
+          0.5853973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 21,
+        "Name": "Limbungan Baru",
+        "Waktu": "10:51",
+        "Suhu": 31.0,
+        "Kelembapan": 69.0,
+        "Vegetasi": "Jarang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.449058,
+          0.560368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 22,
+        "Name": "Lembah Sari",
+        "Waktu": "10:54",
+        "Suhu": 31.0,
+        "Kelembapan": 69.0,
+        "Vegetasi": "Jarang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.448453,
+          0.570792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 23,
+        "Name": "Limbungan",
+        "Waktu": "10:59",
+        "Suhu": 31.0,
+        "Kelembapan": 69.0,
+        "Vegetasi": "Sedang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.449456,
+          0.561914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 24,
+        "Name": "Meranti Pandak",
+        "Waktu": "11:03",
+        "Suhu": 31.0,
+        "Kelembapan": 69.0,
+        "Vegetasi": "Jarang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.447524,
+          0.560289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 25,
+        "Name": "Padang Terubuk",
+        "Waktu": "11:12",
+        "Suhu": 31.0,
+        "Kelembapan": 69.0,
+        "Vegetasi": "Sedang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.438736,
+          0.534242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 26,
+        "Name": "Padang Bulan",
+        "Waktu": "11:14",
+        "Suhu": 31.0,
+        "Kelembapan": 70.0,
+        "Vegetasi": "Tidak ada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.440846,
+          0.530331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 27,
+        "Name": "Pulau Karomah",
+        "Waktu": "11:17",
+        "Suhu": 31.0,
+        "Kelembapan": 70.0,
+        "Vegetasi": "Sedang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.440667,
+          0.527022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 28,
+        "Name": "Sukajadi",
+        "Waktu": "11:18",
+        "Suhu": 31.0,
+        "Kelembapan": 70.0,
+        "Vegetasi": "Jarang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4403,
+          0.523136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 29,
+        "Name": "Harjosari",
+        "Waktu": "11:19",
+        "Suhu": 31.0,
+        "Kelembapan": 70.0,
+        "Vegetasi": "Sedang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.436124,
+          0.524101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 30,
+        "Name": "Kedung Sari",
+        "Waktu": "11:21",
+        "Suhu": 31.0,
+        "Kelembapan": 70.0,
+        "Vegetasi": "Rimbun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.434444,
+          0.525333
+        ]
+      }
+    }
+  ]
+}

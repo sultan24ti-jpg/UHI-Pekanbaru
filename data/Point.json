@@ -1,0 +1,905 @@
+{
+  "type" : "FeatureCollection",
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 0,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.42841776200004,
+          0.57314640600003486,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 0,
+        "OID_" : 0,
+        "Name" : "P01",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 07:26:28.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.42790128600006,
+          0.57143736500006526,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 1,
+        "OID_" : 0,
+        "Name" : "PO2",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 01:40:12.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.42943324900006,
+          0.57553452300004437,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 2,
+        "OID_" : 0,
+        "Name" : "PO3",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 01:40:58.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 3,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.42950121200005,
+          0.57770442200006755,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 3,
+        "OID_" : 0,
+        "Name" : "PO4",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 02:03:29.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 4,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.43422344600003,
+          0.57524832600006448,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 4,
+        "OID_" : 0,
+        "Name" : "PO5",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 02:05:43.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 5,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.45844751400006,
+          0.50939755500002093,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 5,
+        "OID_" : 0,
+        "Name" : "PO6",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 02:49:13.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 6,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.45600035500007,
+          0.51015999300005888,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 6,
+        "OID_" : 0,
+        "Name" : "PO7",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 03:14:51.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 7,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.43040870000004,
+          0.52683880000006411,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 7,
+        "OID_" : 0,
+        "Name" : "PO8",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 04:32:25.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 8,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.45808400000004,
+          0.52597700000006853,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 8,
+        "OID_" : 0,
+        "Name" : "PO9",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 06:48:53.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 9,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.43643225800008,
+          0.57274080600006982,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 9,
+        "OID_" : 0,
+        "Name" : "PO10",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 02:08:24.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 10,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.42601556500006,
+          0.56549977700007048,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 10,
+        "OID_" : 0,
+        "Name" : "PO11",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 02:09:40.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 11,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.44325142500008,
+          0.56242242600006875,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 11,
+        "OID_" : 0,
+        "Name" : "PO12",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 02:10:52.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 12,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.45928400000008,
+          0.57290400000005093,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 12,
+        "OID_" : 0,
+        "Name" : "PO13",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 06:14:01.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 13,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.44197210000004,
+          0.53221940000003087,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 13,
+        "OID_" : 0,
+        "Name" : "PO14",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 04:35:49.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 14,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.44143500000007,
+          0.52779100000003609,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 14,
+        "OID_" : 0,
+        "Name" : "PO15",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 06:26:15.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 15,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.43220700000006,
+          0.52462000000002718,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 15,
+        "OID_" : 0,
+        "Name" : "PO16",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 06:31:24.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 16,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.42778000000004,
+          0.53056800000007343,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 16,
+        "OID_" : 0,
+        "Name" : "PO17",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 06:34:18.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 17,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.42336524800004,
+          0.58135562900002924,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 17,
+        "OID_" : 0,
+        "Name" : "PO18",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 02:13:51.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 18,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.43489334100008,
+          0.55969235700007403,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 18,
+        "OID_" : 0,
+        "Name" : "PO19",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 02:26:14.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 19,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.43573370400009,
+          0.57310396300005095,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 19,
+        "OID_" : 0,
+        "Name" : "PO20",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 02:17:33.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 20,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.41835699700005,
+          0.57546233100003974,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 20,
+        "OID_" : 0,
+        "Name" : "PO21",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 02:14:54.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 21,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.43857200000008,
+          0.53662400000007437,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 21,
+        "OID_" : 0,
+        "Name" : "PO22",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 06:37:12.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 22,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.42075800000003,
+          0.5311240000000339,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 22,
+        "OID_" : 0,
+        "Name" : "PO23",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 06:38:24.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 23,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.44248800000008,
+          0.52746500000006336,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 23,
+        "OID_" : 0,
+        "Name" : "PO24",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 06:39:58.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 24,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.44524400000006,
+          0.51418200000006209,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 24,
+        "OID_" : 0,
+        "Name" : "PO25",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 06:40:53.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 25,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.42968288600008,
+          0.56958115700007284,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 25,
+        "OID_" : 0,
+        "Name" : "PO26",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 04:15:20.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 26,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.42902100000003,
+          0.57362200000005714,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 26,
+        "OID_" : 0,
+        "Name" : "PO27",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 06:42:49.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 27,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.44737900000007,
+          0.52889000000004671,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 27,
+        "OID_" : 0,
+        "Name" : "PO28",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 06:44:42.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 28,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.45377300000007,
+          0.52672900000004574,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 28,
+        "OID_" : 0,
+        "Name" : "PO29",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 06:47:39.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 29,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          101.44769200000007,
+          0.52170100000006414,
+          0,
+          null
+        ]
+      },
+      "properties" : {
+        "FID" : 29,
+        "OID_" : 0,
+        "Name" : "PO30",
+        "FolderPath" : "Document/Point",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "TimeSpan" : 0,
+        "TimeStamp" : -1,
+        "BeginTime" : "2026-10-01 06:50:18.0",
+        "EndTime" : " ",
+        "Snippet" : " ",
+        "PopupInfo" : " ",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    }
+  ]
+}

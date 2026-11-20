@@ -1,0 +1,781 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 1,
+        "Name": "Kampung Bandar",
+        "Waktu": "09:04",
+        "Suhu": 27,
+        "Kelembapan": 87,
+        "Vegetasi": "Jarang",
+        "Kecamatan": "Senapelan",
+        "Kategori_UHI": "Rendah",
+        "Foto": "foto/Kampung Bandar.png",
+        "Foto_List": [
+          "foto/Kampung Bandar.png"
+        ],
+        "Keterangan": "Wilayah padat dengan sedikit vegetasi di tepi sungai Siak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.441231,
+          0.537681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 2,
+        "Name": "Kampung Dalam",
+        "Waktu": "09:07",
+        "Suhu": 28,
+        "Kelembapan": 81,
+        "Vegetasi": "Jarang",
+        "Kecamatan": "Senapelan",
+        "Kategori_UHI": "Rendah",
+        "Foto": "foto/Kampung Dalam.png",
+        "Foto_List": [
+          "foto/Kampung Dalam.png"
+        ],
+        "Keterangan": "Kawasan permukiman padat di pusat kota lama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.445678,
+          0.536008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 3,
+        "Name": "Pesisir",
+        "Waktu": "09:09",
+        "Suhu": 28,
+        "Kelembapan": 80,
+        "Vegetasi": "Jarang",
+        "Kecamatan": "Rumbai Pesisir",
+        "Kategori_UHI": "Rendah",
+        "Foto": "foto/Pesisir.png",
+        "Foto_List": [
+          "foto/Pesisir.png"
+        ],
+        "Keterangan": "Area tepi sungai dengan vegetasi tipis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.447661,
+          0.536978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 4,
+        "Name": "Kota Tinggi",
+        "Waktu": "09:10",
+        "Suhu": 28,
+        "Kelembapan": 81,
+        "Vegetasi": "Sedang",
+        "Kecamatan": "Senapelan",
+        "Kategori_UHI": "Rendah",
+        "Foto": "foto/Kota Tinggi.png",
+        "Foto_List": [
+          "foto/Kota Tinggi.png",
+          "foto/Kota Tinggi (1).png"
+        ],
+        "Keterangan": "Kelurahan kota tinggi dengan vegetasi sedang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.447765,
+          0.529394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 5,
+        "Name": "Sumahilang",
+        "Waktu": "09:12",
+        "Suhu": 28,
+        "Kelembapan": 81,
+        "Vegetasi": "Jarang",
+        "Kecamatan": "Pekanbaru Kota",
+        "Kategori_UHI": "Rendah",
+        "Foto": "foto/Sumahilang.png",
+        "Foto_List": [
+          "foto/Sumahilang.png",
+          "foto/Sumahilang (1).png"
+        ],
+        "Keterangan": "Kawasan komersial dengan sedikit penghijauan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.447617,
+          0.522549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 6,
+        "Name": "Jadirejo",
+        "Waktu": "09:13",
+        "Suhu": 28,
+        "Kelembapan": 81,
+        "Vegetasi": "Jarang",
+        "Kecamatan": "Sukajadi",
+        "Kategori_UHI": "Rendah",
+        "Foto": "foto/Jadirejo.png",
+        "Foto_List": [
+          "foto/Jadirejo.png",
+          "foto/Jadirejo (1).png"
+        ],
+        "Keterangan": "Area tanpa vegetasi, dominasi bangunan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.447438,
+          0.518229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 7,
+        "Name": "Simpang Empat",
+        "Waktu": "09:15",
+        "Suhu": 28,
+        "Kelembapan": 80,
+        "Vegetasi": "Jarang",
+        "Kecamatan": "Pekanbaru Kota",
+        "Kategori_UHI": "Rendah",
+        "Foto": "foto/Simpang Empat.png",
+        "Foto_List": [
+          "foto/Simpang Empat.png",
+          "foto/Simpang Empat (1).png"
+        ],
+        "Keterangan": "Persimpangan jalan utama kota"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.447593,
+          0.514124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 8,
+        "Name": "Cinta Raja",
+        "Waktu": "09:16",
+        "Suhu": 28,
+        "Kelembapan": 81,
+        "Vegetasi": "Sedang",
+        "Kecamatan": "Sail",
+        "Kategori_UHI": "Rendah",
+        "Foto": "foto/Cinta Raja.png",
+        "Foto_List": [
+          "foto/Cinta Raja.png",
+          "foto/Cinta Raja (1).png"
+        ],
+        "Keterangan": "Kelurahan Cinta Raja dengan vegetasi sedang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.450756,
+          0.507432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 9,
+        "Name": "Tangkerang Utara",
+        "Waktu": "09:18",
+        "Suhu": 28,
+        "Kelembapan": 81,
+        "Vegetasi": "Sedang",
+        "Kecamatan": "Bukit Raya",
+        "Kategori_UHI": "Rendah",
+        "Foto": "foto/Tambahan - Tangkerang Utara (dekat Jl. Sudirman).png",
+        "Foto_List": [
+          "foto/Tambahan - Tangkerang Utara (dekat Jl. Sudirman).png",
+          "foto/Tambahan - Tangkerang Utara (dekat Jl (1).png"
+        ],
+        "Keterangan": "Dekat Jl. Sudirman – kawasan strategis kota"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.453551,
+          0.50159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 10,
+        "Name": "Tengkerang Selatan",
+        "Waktu": "09:21",
+        "Suhu": 29,
+        "Kelembapan": 79,
+        "Vegetasi": "Jarang",
+        "Kecamatan": "Bukit Raya",
+        "Kategori_UHI": "Sedang",
+        "Foto": "foto/Tengkerang Selatan.png",
+        "Foto_List": [
+          "foto/Tengkerang Selatan.png",
+          "foto/Tengkerang Selatan (1).png"
+        ],
+        "Keterangan": "Kawasan padat dengan suhu mulai meningkat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.455704,
+          0.496858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 11,
+        "Name": "Simpang Tiga",
+        "Waktu": "09:29",
+        "Suhu": 29,
+        "Kelembapan": 76,
+        "Vegetasi": "Jarang",
+        "Kecamatan": "Bukit Raya",
+        "Kategori_UHI": "Sedang",
+        "Foto": "foto/Simpang Tiga.png",
+        "Foto_List": [
+          "foto/Simpang Tiga.png",
+          "foto/Simpang Tiga (1).png"
+        ],
+        "Keterangan": "Simpang tiga dengan aktivitas kendaraan tinggi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.454156,
+          0.476097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 12,
+        "Name": "Sidomulyo Timur",
+        "Waktu": "09:34",
+        "Suhu": 29,
+        "Kelembapan": 73,
+        "Vegetasi": "Sedang",
+        "Kecamatan": "Marpoyan Damai",
+        "Kategori_UHI": "Sedang",
+        "Foto": "foto/Sidomulyo Timur.png",
+        "Foto_List": [
+          "foto/Sidomulyo Timur.png",
+          "foto/Sidomulyo Timur (1).png"
+        ],
+        "Keterangan": "Kelurahan dengan vegetasi sedang di selatan kota"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.447101,
+          0.479222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 13,
+        "Name": "Tangkerang Barat",
+        "Waktu": "09:42",
+        "Suhu": 29,
+        "Kelembapan": 75,
+        "Vegetasi": "Sedang",
+        "Kecamatan": "Marpoyan Damai",
+        "Kategori_UHI": "Sedang",
+        "Foto": "foto/Tambahan - Tangkerang Barat.png",
+        "Foto_List": [
+          "foto/Tambahan - Tangkerang Barat.png",
+          "foto/Tambahan - Tangkerang Barat (1).png"
+        ],
+        "Keterangan": "Kawasan Tangkerang Barat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.418961,
+          0.486994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 14,
+        "Name": "Delima",
+        "Waktu": "09:59",
+        "Suhu": 29,
+        "Kelembapan": 77,
+        "Vegetasi": "Rimbun",
+        "Kecamatan": "Tampan",
+        "Kategori_UHI": "Sedang",
+        "Foto": "foto/Tambahan - Delima.png",
+        "Foto_List": [
+          "foto/Tambahan - Delima.png",
+          "foto/Tambahan - Delima (1).png"
+        ],
+        "Keterangan": "Area Delima dengan pohon-pohon besar di tepi jalan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.411278,
+          0.499525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 15,
+        "Name": "Labuh Baru Barat",
+        "Waktu": "10:15",
+        "Suhu": 29,
+        "Kelembapan": 75,
+        "Vegetasi": "Rimbun",
+        "Kecamatan": "Payung Sekaki",
+        "Kategori_UHI": "Sedang",
+        "Foto": "foto/Tambahan - Bandar Raya (kemungkinan Labuh Baru Barat).png",
+        "Foto_List": [
+          "foto/Tambahan - Bandar Raya (kemungkinan Labuh Baru Barat).png",
+          "foto/Tambahan - Bandar Raya (kemungkinan Labuh Baru Barat) (1).png"
+        ],
+        "Keterangan": "Kawasan Labuh Baru Barat dengan banyak pohon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.394061,
+          0.50466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 16,
+        "Name": "Air Hitam",
+        "Waktu": "10:17",
+        "Suhu": 29,
+        "Kelembapan": 75,
+        "Vegetasi": "Rimbun",
+        "Kecamatan": "Payung Sekaki",
+        "Kategori_UHI": "Sedang",
+        "Foto": "foto/Air Hitam.png",
+        "Foto_List": [
+          "foto/Air Hitam.png",
+          "foto/Air Hitam (1).png"
+        ],
+        "Keterangan": "Kawasan Air Hitam dengan banyak pohon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.402118,
+          0.529414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 17,
+        "Name": "Tampan",
+        "Waktu": "10:20",
+        "Suhu": 29,
+        "Kelembapan": 75,
+        "Vegetasi": "Rimbun",
+        "Kecamatan": "Tampan",
+        "Kategori_UHI": "Sedang",
+        "Foto": "foto/Tampan.png",
+        "Foto_List": [
+          "foto/Tampan.png",
+          "foto/Tampan (1).png"
+        ],
+        "Keterangan": "Kecamatan Tampan dengan banyak ruang hijau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.403538,
+          0.538599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 18,
+        "Name": "Palas",
+        "Waktu": "10:21",
+        "Suhu": 29,
+        "Kelembapan": 76,
+        "Vegetasi": "Sedang",
+        "Kecamatan": "Rumbai",
+        "Kategori_UHI": "Sedang",
+        "Foto": "foto/Palas.png",
+        "Foto_List": [
+          "foto/Palas.png"
+        ],
+        "Keterangan": "Kelurahan Palas dengan vegetasi sedang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.398981,
+          0.555019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 19,
+        "Name": "Sri Meranti",
+        "Waktu": "10:28",
+        "Suhu": 29,
+        "Kelembapan": 75,
+        "Vegetasi": "Rimbun",
+        "Kecamatan": "Rumbai",
+        "Kategori_UHI": "Sedang",
+        "Foto": "foto/Sri Meranti.png",
+        "Foto_List": [
+          "foto/Sri Meranti.png",
+          "foto/Sri Meranti (1).png"
+        ],
+        "Keterangan": "Sri Meranti wilayah utara dengan lahan hijau luas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.401958,
+          0.580943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 20,
+        "Name": "Lembah Damai",
+        "Waktu": "10:49",
+        "Suhu": 31,
+        "Kelembapan": 69,
+        "Vegetasi": "Rimbun",
+        "Kecamatan": "Rumbai Pesisir",
+        "Kategori_UHI": "Tinggi",
+        "Foto": "foto/Lembah Damai.png",
+        "Foto_List": [
+          "foto/Lembah Damai.png",
+          "foto/Lembah Damai (1).png"
+        ],
+        "Keterangan": "Suhu tinggi meski vegetasi rimbun – dekat industri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.434506,
+          0.574894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 21,
+        "Name": "Lembah Sari",
+        "Waktu": "10:51",
+        "Suhu": 31,
+        "Kelembapan": 69,
+        "Vegetasi": "Jarang",
+        "Kecamatan": "Rumbai Pesisir",
+        "Kategori_UHI": "Tinggi",
+        "Foto": "foto/Lembah Sari.png",
+        "Foto_List": [
+          "foto/Lembah Sari.png",
+          "foto/Lembah Sari (1).png",
+          "foto/Lembah Sari (2).png"
+        ],
+        "Keterangan": "Kawasan industri dengan vegetasi sangat jarang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.448453,
+          0.570792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 22,
+        "Name": "Limbungan",
+        "Waktu": "10:54",
+        "Suhu": 31,
+        "Kelembapan": 69,
+        "Vegetasi": "Sedang",
+        "Kecamatan": "Rumbai Pesisir",
+        "Kategori_UHI": "Tinggi",
+        "Foto": "foto/Limbungan.png",
+        "Foto_List": [
+          "foto/Limbungan.png",
+          "foto/Limbungan (1).png"
+        ],
+        "Keterangan": "Kelurahan Limbungan dengan aktivitas tinggi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.449456,
+          0.561914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 23,
+        "Name": "Limbungan Baru",
+        "Waktu": "10:59",
+        "Suhu": 31,
+        "Kelembapan": 69,
+        "Vegetasi": "Jarang",
+        "Kecamatan": "Rumbai Pesisir",
+        "Kategori_UHI": "Tinggi",
+        "Foto": "foto/Limbungan Baru.png",
+        "Foto_List": [
+          "foto/Limbungan Baru.png",
+          "foto/Limbungan Baru (1).png"
+        ],
+        "Keterangan": "Vegetasi jarang dengan tekanan urban tinggi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.449058,
+          0.560368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 24,
+        "Name": "Padang Terubuk",
+        "Waktu": "11:03",
+        "Suhu": 31,
+        "Kelembapan": 69,
+        "Vegetasi": "Sedang",
+        "Kecamatan": "Senapelan",
+        "Kategori_UHI": "Tinggi",
+        "Foto": "foto/Padang Terubuk.png",
+        "Foto_List": [
+          "foto/Padang Terubuk.png",
+          "foto/Padang Terubuk (1).png"
+        ],
+        "Keterangan": "Area peralihan urban-semi urban"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.438736,
+          0.534242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 25,
+        "Name": "Padang Bulan",
+        "Waktu": "11:12",
+        "Suhu": 31,
+        "Kelembapan": 70,
+        "Vegetasi": "Tidak ada",
+        "Kecamatan": "Senapelan",
+        "Kategori_UHI": "Tinggi",
+        "Foto": "foto/Padang Bulan.png",
+        "Foto_List": [
+          "foto/Padang Bulan.png",
+          "foto/Padang Bulan (1).png"
+        ],
+        "Keterangan": "Tidak ada vegetasi – area komersial dan perdagangan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.440846,
+          0.530331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 26,
+        "Name": "Sukajadi",
+        "Waktu": "11:14",
+        "Suhu": 31,
+        "Kelembapan": 70,
+        "Vegetasi": "Jarang",
+        "Kecamatan": "Sukajadi",
+        "Kategori_UHI": "Tinggi",
+        "Foto": "foto/Sukajadi.png",
+        "Foto_List": [
+          "foto/Sukajadi.png",
+          "foto/Sukajadi (1).png"
+        ],
+        "Keterangan": "Sukajadi – kawasan urban padat dengan sedikit RTH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.440667,
+          0.527022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 27,
+        "Name": "Pulau Karomah",
+        "Waktu": "11:17",
+        "Suhu": 31,
+        "Kelembapan": 70,
+        "Vegetasi": "Sedang",
+        "Kecamatan": "Senapelan",
+        "Kategori_UHI": "Tinggi",
+        "Foto": "foto/Pulau Karomah.png",
+        "Foto_List": [
+          "foto/Pulau Karomah.png"
+        ],
+        "Keterangan": "Kelurahan Pulau Karomah dengan vegetasi sedang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4403,
+          0.523136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 28,
+        "Name": "Harjosari",
+        "Waktu": "11:18",
+        "Suhu": 31,
+        "Kelembapan": 70,
+        "Vegetasi": "Sedang",
+        "Kecamatan": "Sukajadi",
+        "Kategori_UHI": "Tinggi",
+        "Foto": "foto/Harjosari.png",
+        "Foto_List": [
+          "foto/Harjosari.png",
+          "foto/Harjosari (1).png"
+        ],
+        "Keterangan": "Harjosari dengan vegetasi sedang di lingkungan padat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.436124,
+          0.524101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 29,
+        "Name": "Kedung Sari",
+        "Waktu": "11:19",
+        "Suhu": 31,
+        "Kelembapan": 70,
+        "Vegetasi": "Rimbun",
+        "Kecamatan": "Sukajadi",
+        "Kategori_UHI": "Tinggi",
+        "Foto": "foto/Kedung Sari.png",
+        "Foto_List": [
+          "foto/Kedung Sari.png",
+          "foto/Kedung Sari (1).png"
+        ],
+        "Keterangan": "Vegetasi rimbun namun suhu tetap tinggi – heat island residual"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.434444,
+          0.525333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "No": 30,
+        "Name": "Umban Sari",
+        "Waktu": "11:21",
+        "Suhu": 29,
+        "Kelembapan": 75,
+        "Vegetasi": "Rimbun",
+        "Kecamatan": "Rumbai",
+        "Kategori_UHI": "Sedang",
+        "Foto": "foto/Umban Sari.png",
+        "Foto_List": [
+          "foto/Umban Sari.png",
+          "foto/Umban Sari (1).png"
+        ],
+        "Keterangan": "Area Umban Sari dengan RTH yang baik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4253,
+          0.569038
+        ]
+      }
+    }
+  ]
+}

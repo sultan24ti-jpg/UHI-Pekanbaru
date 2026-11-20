@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+<name>30 Titik</name>
+<Placemark><name>Kampung Bandar</name><description>IMG_2521</description><Point><coordinates>101.441231,0.537681,0</coordinates></Point></Placemark>
+<Placemark><name>Kampung Dalam</name><description>IMG_2523</description><Point><coordinates>101.445678,0.536008,0</coordinates></Point></Placemark>
+<Placemark><name>Pesisir</name><description>IMG_2528</description><Point><coordinates>101.447661,0.536978,0</coordinates></Point></Placemark>
+<Placemark><name>Kota Tinggi</name><description>IMG_2532, IMG_2533</description><Point><coordinates>101.447765,0.529394,0</coordinates></Point></Placemark>
+<Placemark><name>Sumahilang</name><description>IMG_2534, IMG_2536</description><Point><coordinates>101.447617,0.522549,0</coordinates></Point></Placemark>
+<Placemark><name>Jadirejo</name><description>IMG_2537, IMG_2539</description><Point><coordinates>101.447438,0.518229,0</coordinates></Point></Placemark>
+<Placemark><name>Simpang Empat</name><description>IMG_2540, IMG_2542</description><Point><coordinates>101.447593,0.514124,0</coordinates></Point></Placemark>
+<Placemark><name>Cinta Raja</name><description>IMG_2544, IMG_2546</description><Point><coordinates>101.450756,0.507432,0</coordinates></Point></Placemark>
+<Placemark><name>Tambahan - Tangkerang Utara (dekat Jl. Sudirman)</name><description>IMG_2547, IMG_2549</description><Point><coordinates>101.453551,0.50159,0</coordinates></Point></Placemark>
+<Placemark><name>Tengkerang Selatan</name><description>IMG_2552, IMG_2554</description><Point><coordinates>101.455704,0.496858,0</coordinates></Point></Placemark>
+<Placemark><name>Simpang Tiga</name><description>IMG_2556, IMG_2558</description><Point><coordinates>101.454156,0.476097,0</coordinates></Point></Placemark>
+<Placemark><name>Sidomulyo Timur</name><description>IMG_2580, IMG_2581</description><Point><coordinates>101.447101,0.479222,0</coordinates></Point></Placemark>
+<Placemark><name>Tambahan - Tangkerang Barat</name><description>IMG_2586, IMG_2587</description><Point><coordinates>101.418961,0.486994,0</coordinates></Point></Placemark>
+<Placemark><name>Tambahan - Delima</name><description>IMG_2590, IMG_2591</description><Point><coordinates>101.411278,0.499525,0</coordinates></Point></Placemark>
+<Placemark><name>Tambahan - Bandar Raya (kemungkinan Labuh Baru Barat)</name><description>IMG_2593, IMG_2594</description><Point><coordinates>101.394061,0.50466,0</coordinates></Point></Placemark>
+<Placemark><name>Air Hitam</name><description>IMG_2596, IMG_2597</description><Point><coordinates>101.402118,0.529414,0</coordinates></Point></Placemark>
+<Placemark><name>Tampan</name><description>IMG_2598, IMG_2599</description><Point><coordinates>101.403538,0.538599,0</coordinates></Point></Placemark>
+<Placemark><name>Palas</name><description>IMG_2602</description><Point><coordinates>101.398981,0.555019,0</coordinates></Point></Placemark>
+<Placemark><name>Sri Meranti</name><description>IMG_2605, IMG_2606</description><Point><coordinates>101.401958,0.580943,0</coordinates></Point></Placemark>
+<Placemark><name>Lembah Damai</name><description>IMG_2609, IMG_2610</description><Point><coordinates>101.434506,0.574894,0</coordinates></Point></Placemark>
+<Placemark><name>Lembah Sari</name><description>IMG_2613, IMG_2614, IMG_2615</description><Point><coordinates>101.448453,0.570792,0</coordinates></Point></Placemark>
+<Placemark><name>Limbungan</name><description>IMG_2616, IMG_2617</description><Point><coordinates>101.449456,0.561914,0</coordinates></Point></Placemark>
+<Placemark><name>Limbungan Baru</name><description>IMG_2619, IMG_2620</description><Point><coordinates>101.449058,0.560368,0</coordinates></Point></Placemark>
+<Placemark><name>Padang Terubuk</name><description>IMG_2621, IMG_2622</description><Point><coordinates>101.438736,0.534242,0</coordinates></Point></Placemark>
+<Placemark><name>Padang Bulan</name><description>IMG_2623, IMG_2624</description><Point><coordinates>101.440846,0.530331,0</coordinates></Point></Placemark>
+<Placemark><name>Sukajadi</name><description>IMG_2625, IMG_2626</description><Point><coordinates>101.440667,0.527022,0</coordinates></Point></Placemark>
+<Placemark><name>Pulau Karomah</name><description>IMG_2629</description><Point><coordinates>101.4403,0.523136,0</coordinates></Point></Placemark>
+<Placemark><name>Harjosari</name><description>IMG_2631, IMG_2632</description><Point><coordinates>101.436124,0.524101,0</coordinates></Point></Placemark>
+<Placemark><name>Kedung Sari</name><description>IMG_2633, IMG_2634</description><Point><coordinates>101.434444,0.525333,0</coordinates></Point></Placemark>
+<Placemark><name>Umban Sari</name><description>IMG_2636, IMG_2637</description><Point><coordinates>101.4253,0.569038,0</coordinates></Point></Placemark>
+</Document></kml>

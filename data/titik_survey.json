@@ -1,0 +1,620 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "OID" : "OID",
+    "Name" : "Name",
+    "FolderPath" : "FolderPath",
+    "SymbolID" : "SymbolID",
+    "AltMode" : "AltMode",
+    "Base" : "Base",
+    "Snippet" : "Snippet",
+    "PopupInfo" : "PopupInfo",
+    "HasLabel" : "HasLabel",
+    "LabelID" : "LabelID"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkid" : 4326,
+    "latestWkid" : 4326,
+    "vcsWkid" : 5773,
+    "latestVcsWkid" : 5773
+  },
+  "fields" : [
+    {
+      "name" : "OID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "OID"
+    },
+    {
+      "name" : "Name",
+      "type" : "esriFieldTypeString",
+      "alias" : "Name",
+      "length" : 320
+    },
+    {
+      "name" : "FolderPath",
+      "type" : "esriFieldTypeString",
+      "alias" : "FolderPath",
+      "length" : 320
+    },
+    {
+      "name" : "SymbolID",
+      "type" : "esriFieldTypeInteger",
+      "alias" : "SymbolID"
+    },
+    {
+      "name" : "AltMode",
+      "type" : "esriFieldTypeSmallInteger",
+      "alias" : "AltMode"
+    },
+    {
+      "name" : "Base",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "Base"
+    },
+    {
+      "name" : "Snippet",
+      "type" : "esriFieldTypeString",
+      "alias" : "Snippet",
+      "length" : 268435455
+    },
+    {
+      "name" : "PopupInfo",
+      "type" : "esriFieldTypeString",
+      "alias" : "PopupInfo",
+      "length" : 268435455
+    },
+    {
+      "name" : "HasLabel",
+      "type" : "esriFieldTypeSmallInteger",
+      "alias" : "HasLabel"
+    },
+    {
+      "name" : "LabelID",
+      "type" : "esriFieldTypeInteger",
+      "alias" : "LabelID"
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "OID" : 1,
+        "Name" : "Kampung Bandar",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2521",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.44123100000007,
+        "y" : 0.5376810000000205
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 2,
+        "Name" : "Kampung Dalam",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2523",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.44567800000004,
+        "y" : 0.53600800000003801
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 3,
+        "Name" : "Pesisir",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2528",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.44766100000004,
+        "y" : 0.53697800000003326
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 4,
+        "Name" : "Kota Tinggi",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2532, IMG_2533",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.44776500000006,
+        "y" : 0.52939400000002479
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 5,
+        "Name" : "Sumahilang",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2534, IMG_2536",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.44761700000004,
+        "y" : 0.52254900000002635
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 6,
+        "Name" : "Jadirejo",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2537, IMG_2539",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.44743800000003,
+        "y" : 0.51822900000001937
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 7,
+        "Name" : "Simpang Empat",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2540, IMG_2542",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.44759300000004,
+        "y" : 0.514124000000038
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 8,
+        "Name" : "Cinta Raja",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2544, IMG_2546",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.45075600000007,
+        "y" : 0.50743200000005118
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 9,
+        "Name" : "Tambahan - Tangkerang Utara (dekat Jl. Sudirman)",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2547, IMG_2549",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.45355100000006,
+        "y" : 0.50159000000002152
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 10,
+        "Name" : "Tengkerang Selatan",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2552, IMG_2554",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.45570400000008,
+        "y" : 0.49685800000003155
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 11,
+        "Name" : "Simpang Tiga",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2556, IMG_2558",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.45415600000007,
+        "y" : 0.47609700000003841
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 12,
+        "Name" : "Sidomulyo Timur",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2580, IMG_2581",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.44710100000003,
+        "y" : 0.47922200000004977
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 13,
+        "Name" : "Tambahan - Tangkerang Barat",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2586, IMG_2587",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.41896100000008,
+        "y" : 0.48699400000003834
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 14,
+        "Name" : "Tambahan - Delima",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2590, IMG_2591",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.41127800000004,
+        "y" : 0.49952500000006239
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 15,
+        "Name" : "Tambahan - Bandar Raya (kemungkinan Labuh Baru Barat)",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2593, IMG_2594",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.39406100000008,
+        "y" : 0.50466000000005806
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 16,
+        "Name" : "Air Hitam",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2596, IMG_2597",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.40211800000009,
+        "y" : 0.52941400000003114
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 17,
+        "Name" : "Tampan",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2598, IMG_2599",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.40353800000008,
+        "y" : 0.53859900000003336
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 18,
+        "Name" : "Palas",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2602",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.39898100000005,
+        "y" : 0.55501900000007254
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 19,
+        "Name" : "Sri Meranti",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2605, IMG_2606",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.40195800000004,
+        "y" : 0.5809430000000475
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 20,
+        "Name" : "Lembah Damai",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2609, IMG_2610",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.43450600000006,
+        "y" : 0.57489400000002888
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 21,
+        "Name" : "Lembah Sari",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2613, IMG_2614, IMG_2615",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.44845300000009,
+        "y" : 0.57079200000003993
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 22,
+        "Name" : "Limbungan",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2616, IMG_2617",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.44945600000005,
+        "y" : 0.56191400000005842
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 23,
+        "Name" : "Limbungan Baru",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2619, IMG_2620",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.44905800000004,
+        "y" : 0.5603680000000395
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 24,
+        "Name" : "Padang Terubuk",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2621, IMG_2622",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.43873600000006,
+        "y" : 0.53424200000006294
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 25,
+        "Name" : "Padang Bulan",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2623, IMG_2624",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.44084600000008,
+        "y" : 0.53033100000004652
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 26,
+        "Name" : "Sukajadi",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2625, IMG_2626",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.44066700000008,
+        "y" : 0.52702200000004495
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 27,
+        "Name" : "Pulau Karomah",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2629",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.44030000000004,
+        "y" : 0.52313600000002225
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 28,
+        "Name" : "Harjosari",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2631, IMG_2632",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.43612400000006,
+        "y" : 0.52410100000003013
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 29,
+        "Name" : "Kedung Sari",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2633, IMG_2634",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.43444400000004,
+        "y" : 0.52533300000004601
+      }
+    },
+    {
+      "attributes" : {
+        "OID" : 30,
+        "Name" : "Umban Sari",
+        "FolderPath" : "30 Titik",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "IMG_2636, IMG_2637",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      },
+      "geometry" : {
+        "x" : 101.42530000000005,
+        "y" : 0.56903800000003457
+      }
+    }
+  ]
+}

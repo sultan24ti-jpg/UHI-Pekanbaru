@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SIG Urban Heat Island – Pekanbaru</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow" id="mainNav">
+    <div class="container-fluid px-4">
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#">
+        <i class="bi bi-thermometer-sun text-warning"></i>
+        <span>UHI Pekanbaru</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto gap-1">
+          <li class="nav-item">
+            <a class="nav-link active px-3" id="nav-home" href="#" onclick="showPage('home')">
+              <i class="bi bi-house-fill me-1"></i>Beranda
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" id="nav-map" href="#" onclick="showPage('map')">
+              <i class="bi bi-map-fill me-1"></i>Peta
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" id="nav-analisis" href="#" onclick="showPage('map'); setTimeout(()=>document.getElementById('tab-analisis').click(),400)">
+              <i class="bi bi-graph-up me-1"></i>Analisis
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HALAMAN BERANDA ===== -->
+  <div id="page-home">
+
+    <!-- Hero Section -->
+    <section class="hero-section d-flex align-items-center justify-content-center text-white text-center">
+      <div class="hero-overlay"></div>
+      <div class="hero-content position-relative z-1">
+        <div class="badge bg-warning text-dark mb-3 fs-6 px-3 py-2">
+          <i class="bi bi-mortarboard-fill me-1"></i>Mata Kuliah Sistem Informasi Geografis
+        </div>
+        <h1 class="display-4 fw-bold mb-3">Urban Heat Island &amp; Kondisi Vegetasi</h1>
+        <h2 class="h4 fw-light mb-4 text-warning">Kota Pekanbaru, Riau</h2>
+        <p class="lead mb-4 mx-auto" style="max-width:650px">
+          Pemetaan dan analisis spasial distribusi suhu, kelembapan relatif, dan kondisi tutupan vegetasi
+          di 30 titik survei lapangan Kota Pekanbaru menggunakan teknologi WebGIS OpenLayers.
+        </p>
+        <div class="d-flex gap-3 justify-content-center flex-wrap">
+          <button class="btn btn-warning btn-lg fw-bold px-4" onclick="showPage('map')">
+            <i class="bi bi-map-fill me-2"></i>Lihat Peta
+          </button>
+          <a href="#tentang" class="btn btn-outline-light btn-lg px-4">
+            <i class="bi bi-info-circle me-2"></i>Selengkapnya
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistik Ringkas -->
+    <section class="py-5 bg-dark text-white">
+      <div class="container">
+        <div class="row g-4 text-center">
+          <div class="col-6 col-md-3">
+            <div class="stat-card p-4 rounded-3">
+              <div class="stat-icon text-warning mb-2"><i class="bi bi-geo-alt-fill fs-1"></i></div>
+              <div class="display-6 fw-bold text-warning">30</div>
+              <div class="text-light">Titik Survei</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="stat-card p-4 rounded-3">
+              <div class="stat-icon text-info mb-2"><i class="bi bi-thermometer-half fs-1"></i></div>
+              <div class="display-6 fw-bold text-info">27–31°C</div>
+              <div class="text-light">Rentang Suhu</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="stat-card p-4 rounded-3">
+              <div class="stat-icon text-success mb-2"><i class="bi bi-tree-fill fs-1"></i></div>
+              <div class="display-6 fw-bold text-success">4</div>
+              <div class="text-light">Kategori Vegetasi</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="stat-card p-4 rounded-3">
+              <div class="stat-icon text-danger mb-2"><i class="bi bi-fire fs-1"></i></div>
+              <div class="display-6 fw-bold text-danger">3</div>
+              <div class="text-light">Level UHI</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tentang Penelitian -->
+    <section id="tentang" class="py-5 bg-light">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-6">
+            <span class="badge bg-danger mb-3">Latar Belakang</span>
+            <h2 class="fw-bold mb-4">Urban Heat Island di Pekanbaru</h2>
+            <p class="text-muted mb-3">
+              <strong>Urban Heat Island (UHI)</strong> adalah fenomena di mana kawasan perkotaan 
+              memiliki suhu yang lebih tinggi dibandingkan daerah pedesaan sekitarnya, 
+              akibat substitusi tutupan lahan alami oleh bangunan, aspal, dan infrastruktur.
+            </p>
+            <p class="text-muted mb-3">
+              Kota Pekanbaru sebagai ibu kota Provinsi Riau mengalami perkembangan pesat dalam dekade terakhir. 
+              Ekspansi urban yang masif berdampak pada pengurangan ruang terbuka hijau dan 
+              peningkatan intensitas UHI, mengancam kenyamanan thermal dan kualitas lingkungan hidup warganya.
+            </p>
+            <p class="text-muted">
+              Penelitian ini bertujuan mengidentifikasi distribusi spasial UHI dan kondisi vegetasi 
+              di 30 titik strategis Kota Pekanbaru melalui survei lapangan langsung, 
+              guna mendukung perencanaan kota yang berkelanjutan.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <div class="row g-3">
+              <div class="col-6">
+                <div class="feature-card p-4 rounded-3 bg-white shadow-sm h-100 border-start border-4 border-danger">
+                  <i class="bi bi-thermometer-sun text-danger fs-2 mb-2 d-block"></i>
+                  <h6 class="fw-bold">Pengukuran Suhu</h6>
+                  <p class="text-muted small mb-0">Suhu udara diukur menggunakan termometer digital di tiap titik survey</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="feature-card p-4 rounded-3 bg-white shadow-sm h-100 border-start border-4 border-info">
+                  <i class="bi bi-droplet-fill text-info fs-2 mb-2 d-block"></i>
+                  <h6 class="fw-bold">Kelembapan Relatif</h6>
+                  <p class="text-muted small mb-0">Kelembapan udara direkam bersamaan dengan pengukuran suhu</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="feature-card p-4 rounded-3 bg-white shadow-sm h-100 border-start border-4 border-success">
+                  <i class="bi bi-tree-fill text-success fs-2 mb-2 d-block"></i>
+                  <h6 class="fw-bold">Kondisi Vegetasi</h6>
+                  <p class="text-muted small mb-0">Penilaian kualitatif tutupan vegetasi: Rimbun, Sedang, Jarang, Tidak Ada</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="feature-card p-4 rounded-3 bg-white shadow-sm h-100 border-start border-4 border-warning">
+                  <i class="bi bi-camera-fill text-warning fs-2 mb-2 d-block"></i>
+                  <h6 class="fw-bold">Dokumentasi Foto</h6>
+                  <p class="text-muted small mb-0">Foto kondisi lapangan diambil di setiap titik untuk verifikasi data</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Metodologi -->
+    <section class="py-5 bg-white">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="badge bg-primary mb-2">Metodologi</span>
+          <h2 class="fw-bold">Alur Penelitian</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-3 text-center">
+            <div class="method-step">
+              <div class="step-num bg-primary text-white rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center fw-bold" style="width:60px;height:60px;font-size:1.5rem">1</div>
+              <h6 class="fw-bold">Persiapan & Desain</h6>
+              <p class="text-muted small">Penentuan 30 titik sampel berbasis grid di wilayah Kota Pekanbaru</p>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="method-step">
+              <div class="step-num bg-warning text-dark rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center fw-bold" style="width:60px;height:60px;font-size:1.5rem">2</div>
+              <h6 class="fw-bold">Survei Lapangan</h6>
+              <p class="text-muted small">Pengukuran suhu, kelembapan, observasi vegetasi, dan dokumentasi foto</p>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="method-step">
+              <div class="step-num bg-success text-white rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center fw-bold" style="width:60px;height:60px;font-size:1.5rem">3</div>
+              <h6 class="fw-bold">Pengolahan Data</h6>
+              <p class="text-muted small">Konversi data ke GeoJSON, klasifikasi UHI, dan persiapan layer spasial</p>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="method-step">
+              <div class="step-num bg-danger text-white rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center fw-bold" style="width:60px;height:60px;font-size:1.5rem">4</div>
+              <h6 class="fw-bold">Analisis Spasial</h6>
+              <p class="text-muted small">Buffer analysis, spatial query, dan visualisasi distribusi UHI di WebGIS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Profil Tim -->
+    <section class="py-5 bg-dark text-white" id="tim">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="badge bg-warning text-dark mb-2">Tim Peneliti</span>
+          <h2 class="fw-bold">Kelompok Survei</h2>
+          <p class="text-muted">Mahasiswa 3TIE – Mata Kuliah Sistem Informasi Geografis</p>
+        </div>
+        <div class="row g-4 justify-content-center">
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="team-card text-center p-3 rounded-3">
+              <div class="team-avatar mx-auto mb-3 rounded-circle bg-warning d-flex align-items-center justify-content-center" style="width:70px;height:70px">
+                <i class="bi bi-person-fill fs-2 text-dark"></i>
+              </div>
+              <h6 class="fw-bold mb-1">Sultan Alqadri</h6>
+              <small class="text-warning">Ketua</small>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="team-card text-center p-3 rounded-3">
+              <div class="team-avatar mx-auto mb-3 rounded-circle bg-info d-flex align-items-center justify-content-center" style="width:70px;height:70px">
+                <i class="bi bi-person-fill fs-2 text-dark"></i>
+              </div>
+              <h6 class="fw-bold mb-1">Anggota 2</h6>
+              <small class="text-info">Surveyor</small>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="team-card text-center p-3 rounded-3">
+              <div class="team-avatar mx-auto mb-3 rounded-circle bg-success d-flex align-items-center justify-content-center" style="width:70px;height:70px">
+                <i class="bi bi-person-fill fs-2 text-dark"></i>
+              </div>
+              <h6 class="fw-bold mb-1">Anggota 3</h6>
+              <small class="text-success">Surveyor</small>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="team-card text-center p-3 rounded-3">
+              <div class="team-avatar mx-auto mb-3 rounded-circle bg-danger d-flex align-items-center justify-content-center" style="width:70px;height:70px">
+                <i class="bi bi-person-fill fs-2 text-dark"></i>
+              </div>
+              <h6 class="fw-bold mb-1">Anggota 4</h6>
+              <small class="text-danger">Surveyor</small>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="team-card text-center p-3 rounded-3">
+              <div class="team-avatar mx-auto mb-3 rounded-circle bg-secondary d-flex align-items-center justify-content-center" style="width:70px;height:70px">
+                <i class="bi bi-person-fill fs-2 text-dark"></i>
+              </div>
+              <h6 class="fw-bold mb-1">Anggota 5</h6>
+              <small class="text-secondary">Surveyor</small>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-5">
+          <button class="btn btn-warning btn-lg fw-bold px-5" onclick="showPage('map')">
+            <i class="bi bi-map-fill me-2"></i>Lihat Peta Interaktif
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-muted text-center py-3">
+      <small>© 2024 Kelompok SIG 3TIE – Politeknik / Universitas | Urban Heat Island &amp; Vegetasi Kota Pekanbaru</small>
+    </footer>
+
+  </div><!-- /page-home -->
+
+  <!-- ===== HALAMAN PETA ===== -->
+  <div id="page-map" style="display:none">
+
+    <!-- Sidebar Kontrol -->
+    <div id="map-sidebar">
+      <!-- Header Sidebar -->
+      <div class="sidebar-header p-3 bg-dark text-white d-flex align-items-center justify-content-between">
+        <div class="d-flex align-items-center gap-2">
+          <i class="bi bi-layers-fill text-warning"></i>
+          <span class="fw-bold">Kontrol Peta</span>
+        </div>
+        <button class="btn btn-sm btn-outline-light" id="sidebar-toggle" onclick="toggleSidebar()">
+          <i class="bi bi-chevron-left"></i>
+        </button>
+      </div>
+
+      <!-- Tab Nav -->
+      <ul class="nav nav-tabs nav-fill" id="sidebarTab">
+        <li class="nav-item">
+          <button class="nav-link active small fw-semibold" id="tab-layer" onclick="switchTab('layer')">
+            <i class="bi bi-stack me-1"></i>Layer
+          </button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link small fw-semibold" id="tab-filter" onclick="switchTab('filter')">
+            <i class="bi bi-funnel-fill me-1"></i>Filter
+          </button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link small fw-semibold" id="tab-analisis" onclick="switchTab('analisis')">
+            <i class="bi bi-graph-up me-1"></i>Analisis
+          </button>
+        </li>
+      </ul>
+
+      <!-- Tab: Layer -->
+      <div id="panel-layer" class="sidebar-panel p-3">
+        <h6 class="text-muted text-uppercase small fw-bold mb-3">Basemap</h6>
+        <div class="mb-3">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="basemap" id="bm-osm" value="osm" checked>
+            <label class="form-check-label small" for="bm-osm"><i class="bi bi-map me-1"></i>OSM</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="basemap" id="bm-sat" value="satellite">
+            <label class="form-check-label small" for="bm-sat"><i class="bi bi-globe2 me-1"></i>Satelit</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="basemap" id="bm-dark" value="dark">
+            <label class="form-check-label small" for="bm-dark"><i class="bi bi-moon-fill me-1"></i>Gelap</label>
+          </div>
+        </div>
+
+        <hr class="my-2">
+        <h6 class="text-muted text-uppercase small fw-bold mb-3">Layer Data</h6>
+
+        <div class="layer-item mb-2 p-2 rounded border">
+          <div class="form-check d-flex align-items-center gap-2">
+            <input class="form-check-input" type="checkbox" id="chk-riau" checked>
+            <label class="form-check-label d-flex align-items-center gap-2 flex-grow-1" for="chk-riau">
+              <span class="legend-swatch rounded" style="background:#1976d2;border:2px solid #1976d2;width:16px;height:16px;display:inline-block"></span>
+              <span class="small fw-semibold">Batas Kab. Riau</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="layer-item mb-2 p-2 rounded border">
+          <div class="form-check d-flex align-items-center gap-2">
+            <input class="form-check-input" type="checkbox" id="chk-kec" checked>
+            <label class="form-check-label d-flex align-items-center gap-2 flex-grow-1" for="chk-kec">
+              <span class="legend-swatch rounded" style="background:rgba(103,58,183,0.5);border:2px solid #673ab7;width:16px;height:16px;display:inline-block"></span>
+              <span class="small fw-semibold">Kecamatan Pekanbaru</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="layer-item mb-2 p-2 rounded border">
+          <div class="form-check d-flex align-items-center gap-2">
+            <input class="form-check-input" type="checkbox" id="chk-survey" checked>
+            <label class="form-check-label d-flex align-items-center gap-2 flex-grow-1" for="chk-survey">
+              <span class="legend-swatch rounded-circle" style="width:14px;height:14px;display:inline-block;background:radial-gradient(circle, #ff4444 0%, #ff0000 100%);border:2px solid #cc0000"></span>
+              <span class="small fw-semibold">Titik Survei (UHI)</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="layer-item mb-2 p-2 rounded border">
+          <div class="form-check d-flex align-items-center gap-2">
+            <input class="form-check-input" type="checkbox" id="chk-track" checked>
+            <label class="form-check-label d-flex align-items-center gap-2 flex-grow-1" for="chk-track">
+              <span class="legend-swatch" style="background:#e91e63;height:4px;width:20px;display:inline-block;border-radius:2px"></span>
+              <span class="small fw-semibold">Jalur Survei (GPS Avenza)</span>
+            </label>
+          </div>
+          <div class="text-muted" style="font-size:0.72rem;padding-left:28px">3.542 titik track GPS riil dari TrackingSurveiKelembaban</div>
+        </div>
+
+        <div class="layer-item mb-2 p-2 rounded border">
+          <div class="form-check d-flex align-items-center gap-2">
+            <input class="form-check-input" type="checkbox" id="chk-route">
+            <label class="form-check-label d-flex align-items-center gap-2 flex-grow-1" for="chk-route">
+              <span class="legend-swatch" style="background:#ff9800;height:3px;width:20px;display:inline-block;border-radius:2px"></span>
+              <span class="small fw-semibold">Rute Survei (Garis Lurus 1 → 30)</span>
+            </label>
+          </div>
+          <div class="text-muted" style="font-size:0.72rem;padding-left:28px">Garis hubung langsung antar titik survei</div>
+        </div>
+
+        <div class="layer-item mb-2 p-2 rounded border">
+          <div class="form-check d-flex align-items-center gap-2">
+            <input class="form-check-input" type="checkbox" id="chk-buffer">
+            <label class="form-check-label d-flex align-items-center gap-2 flex-grow-1" for="chk-buffer">
+              <span class="legend-swatch rounded" style="background:rgba(255,0,0,0.1);border:2px solid red;width:16px;height:16px;display:inline-block"></span>
+              <span class="small fw-semibold">Buffer Zona UHI Tinggi</span>
+            </label>
+          </div>
+        </div>
+
+        <hr class="my-2">
+        <h6 class="text-muted text-uppercase small fw-bold mb-2">Legenda Suhu</h6>
+        <div class="legend-gradient rounded p-2 mb-1">
+          <div class="d-flex justify-content-between small mb-1">
+            <span>27°C</span><span>29°C</span><span>31°C</span>
+          </div>
+          <div class="rounded" style="height:12px;background:linear-gradient(to right,#2196f3,#4caf50,#ff9800,#f44336)"></div>
+          <div class="d-flex justify-content-between small mt-1 text-muted">
+            <span>Rendah</span><span>Sedang</span><span>Tinggi</span>
+          </div>
+        </div>
+        <div class="mt-2 small">
+          <div class="d-flex align-items-center gap-2 mb-1">
+            <span class="rounded-circle d-inline-block" style="width:12px;height:12px;background:#2196f3"></span>
+            <span>Suhu Rendah (27-28°C)</span>
+          </div>
+          <div class="d-flex align-items-center gap-2 mb-1">
+            <span class="rounded-circle d-inline-block" style="width:12px;height:12px;background:#ff9800"></span>
+            <span>Suhu Sedang (29°C)</span>
+          </div>
+          <div class="d-flex align-items-center gap-2">
+            <span class="rounded-circle d-inline-block" style="width:12px;height:12px;background:#f44336"></span>
+            <span>Suhu Tinggi (31°C+)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab: Filter -->
+      <div id="panel-filter" class="sidebar-panel p-3" style="display:none">
+        <h6 class="text-muted text-uppercase small fw-bold mb-3">Filter Kategori UHI</h6>
+        <div class="mb-3">
+          <label class="form-check d-flex align-items-center gap-2 mb-2">
+            <input type="checkbox" class="form-check-input filter-uhi" value="Rendah" checked>
+            <span class="badge bg-primary">Rendah</span>
+            <span class="small text-muted">(27–28°C)</span>
+          </label>
+          <label class="form-check d-flex align-items-center gap-2 mb-2">
+            <input type="checkbox" class="form-check-input filter-uhi" value="Sedang" checked>
+            <span class="badge bg-warning text-dark">Sedang</span>
+            <span class="small text-muted">(29°C)</span>
+          </label>
+          <label class="form-check d-flex align-items-center gap-2 mb-2">
+            <input type="checkbox" class="form-check-input filter-uhi" value="Tinggi" checked>
+            <span class="badge bg-danger">Tinggi</span>
+            <span class="small text-muted">(31°C+)</span>
+          </label>
+        </div>
+
+        <hr class="my-2">
+        <h6 class="text-muted text-uppercase small fw-bold mb-3">Filter Kondisi Vegetasi</h6>
+        <div class="mb-3">
+          <label class="form-check d-flex align-items-center gap-2 mb-2">
+            <input type="checkbox" class="form-check-input filter-veg" value="Rimbun" checked>
+            <span class="badge" style="background:#1b5e20">Rimbun</span>
+          </label>
+          <label class="form-check d-flex align-items-center gap-2 mb-2">
+            <input type="checkbox" class="form-check-input filter-veg" value="Sedang" checked>
+            <span class="badge bg-success">Sedang</span>
+          </label>
+          <label class="form-check d-flex align-items-center gap-2 mb-2">
+            <input type="checkbox" class="form-check-input filter-veg" value="Jarang" checked>
+            <span class="badge bg-warning text-dark">Jarang</span>
+          </label>
+          <label class="form-check d-flex align-items-center gap-2 mb-2">
+            <input type="checkbox" class="form-check-input filter-veg" value="Tidak ada" checked>
+            <span class="badge bg-dark">Tidak Ada</span>
+          </label>
+        </div>
+
+        <hr class="my-2">
+        <h6 class="text-muted text-uppercase small fw-bold mb-3">Filter Rentang Suhu</h6>
+        <div class="mb-2">
+          <label class="form-label small">Min Suhu: <strong id="suhu-min-val">27</strong>°C</label>
+          <input type="range" class="form-range" id="suhu-min" min="27" max="31" step="0.5" value="27">
+        </div>
+        <div class="mb-3">
+          <label class="form-label small">Max Suhu: <strong id="suhu-max-val">31</strong>°C</label>
+          <input type="range" class="form-range" id="suhu-max" min="27" max="31" step="0.5" value="31">
+        </div>
+
+        <button class="btn btn-sm btn-outline-secondary w-100" onclick="resetFilter()">
+          <i class="bi bi-arrow-counterclockwise me-1"></i>Reset Filter
+        </button>
+        <div class="mt-3 p-2 bg-light rounded small" id="filter-count">
+          Menampilkan: <strong id="visible-count">30</strong> dari 30 titik
+        </div>
+      </div>
+
+      <!-- Tab: Analisis -->
+      <div id="panel-analisis" class="sidebar-panel p-3" style="display:none">
+        <h6 class="text-muted text-uppercase small fw-bold mb-3">Analisis Spasial</h6>
+
+        <!-- Buffer Analysis -->
+        <div class="analysis-card mb-3 p-3 rounded border border-danger bg-light">
+          <div class="d-flex align-items-center gap-2 mb-2">
+            <i class="bi bi-bullseye text-danger fs-5"></i>
+            <strong class="small">Buffer Analysis</strong>
+          </div>
+          <p class="small text-muted mb-2">Buat zona buffer sekitar titik UHI Tinggi untuk identifikasi area terdampak</p>
+          <div class="mb-2">
+            <label class="form-label small fw-semibold">Radius Buffer (meter):</label>
+            <select class="form-select form-select-sm" id="buffer-radius">
+              <option value="300">300 m</option>
+              <option value="500" selected>500 m</option>
+              <option value="1000">1.000 m</option>
+              <option value="2000">2.000 m</option>
+            </select>
+          </div>
+          <div class="mb-2">
+            <label class="form-label small fw-semibold">Target titik:</label>
+            <select class="form-select form-select-sm" id="buffer-target">
+              <option value="Tinggi">UHI Tinggi (31°C+)</option>
+              <option value="Sedang">UHI Sedang (29°C)</option>
+              <option value="all">Semua Titik</option>
+            </select>
+          </div>
+          <button class="btn btn-danger btn-sm w-100" onclick="runBuffer()">
+            <i class="bi bi-bullseye me-1"></i>Buat Buffer
+          </button>
+          <button class="btn btn-outline-secondary btn-sm w-100 mt-1" onclick="clearBuffer()">
+            <i class="bi bi-x-circle me-1"></i>Hapus Buffer
+          </button>
+        </div>
+
+        <!-- Spatial Query -->
+        <div class="analysis-card mb-3 p-3 rounded border border-primary bg-light">
+          <div class="d-flex align-items-center gap-2 mb-2">
+            <i class="bi bi-search text-primary fs-5"></i>
+            <strong class="small">Spatial Query</strong>
+          </div>
+          <p class="small text-muted mb-2">Temukan titik survei dalam radius tertentu dari pusat kota</p>
+          <div class="mb-2">
+            <label class="form-label small fw-semibold">Radius Query (km):</label>
+            <input type="number" class="form-control form-control-sm" id="query-radius" value="3" min="0.5" max="20" step="0.5">
+          </div>
+          <button class="btn btn-primary btn-sm w-100" onclick="runSpatialQuery()">
+            <i class="bi bi-search me-1"></i>Jalankan Query
+          </button>
+          <div id="query-result" class="mt-2 small d-none">
+            <div class="alert alert-info p-2 mb-0">
+              <strong id="query-count">0</strong> titik ditemukan dalam radius
+            </div>
+          </div>
+        </div>
+
+        <!-- Statistik -->
+        <div class="analysis-card p-3 rounded border border-success bg-light">
+          <div class="d-flex align-items-center gap-2 mb-2">
+            <i class="bi bi-bar-chart-fill text-success fs-5"></i>
+            <strong class="small">Statistik Data</strong>
+          </div>
+          <table class="table table-sm table-borderless mb-0 small">
+            <tr><td class="text-muted">Rata-rata Suhu:</td><td class="fw-bold text-danger" id="stat-suhu-avg">-</td></tr>
+            <tr><td class="text-muted">Suhu Tertinggi:</td><td class="fw-bold text-danger" id="stat-suhu-max">-</td></tr>
+            <tr><td class="text-muted">Suhu Terendah:</td><td class="fw-bold text-info" id="stat-suhu-min">-</td></tr>
+            <tr><td class="text-muted">Rata-rata Kelembapan:</td><td class="fw-bold text-info" id="stat-hum-avg">-</td></tr>
+            <tr><td class="text-muted">UHI Tinggi:</td><td class="fw-bold text-danger" id="stat-uhi-high">-</td></tr>
+            <tr><td class="text-muted">UHI Sedang:</td><td class="fw-bold text-warning" id="stat-uhi-med">-</td></tr>
+            <tr><td class="text-muted">UHI Rendah:</td><td class="fw-bold text-primary" id="stat-uhi-low">-</td></tr>
+          </table>
+          <button class="btn btn-success btn-sm w-100 mt-2" onclick="updateStats()">
+            <i class="bi bi-arrow-clockwise me-1"></i>Hitung Statistik
+          </button>
+        </div>
+      </div>
+    </div><!-- /sidebar -->
+
+    <!-- Peta -->
+    <div id="map"></div>
+
+    <!-- Popup Klik Feature -->
+    <div id="popup" class="ol-popup">
+      <a href="#" id="popup-closer" class="ol-popup-closer"><i class="bi bi-x-lg"></i></a>
+      <div id="popup-content"></div>
+    </div>
+
+    <!-- Info Hover -->
+    <div id="map-info-bar">
+      <i class="bi bi-cursor-fill me-2 text-warning"></i>
+      <span id="hover-info">Arahkan ke fitur untuk info</span>
+    </div>
+
+  </div><!-- /page-map -->
+
+  <!-- Modal Foto Survei -->
+  <div class="modal fade" id="fotoModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark text-white">
+        <div class="modal-header border-secondary">
+          <h5 class="modal-title" id="foto-modal-title">Foto Survei</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body text-center p-2">
+          <img id="foto-modal-img" src="" alt="Foto Survei" class="img-fluid rounded" style="max-height:60vh;object-fit:contain">
+        </div>
+        <div class="modal-footer border-secondary">
+          <small class="text-muted" id="foto-modal-info"></small>
+          <button class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="/main.js"></script>
+  <script>
+    // Page navigation
+    function showPage(page) {
+      document.getElementById('page-home').style.display = page === 'home' ? '' : 'none';
+      document.getElementById('page-map').style.display = page === 'map' ? '' : 'none';
+      document.getElementById('nav-home').classList.toggle('active', page === 'home');
+      document.getElementById('nav-map').classList.toggle('active', page === 'map');
+      if (page === 'map') {
+        setTimeout(() => window.dispatchEvent(new Event('resize')), 100);
+      }
+    }
+    function switchTab(tab) {
+      ['layer','filter','analisis'].forEach(t => {
+        document.getElementById('panel-'+t).style.display = t===tab ? '' : 'none';
+        document.getElementById('tab-'+t).classList.toggle('active', t===tab);
+      });
+    }
+    let sidebarOpen = true;
+    function toggleSidebar() {
+      sidebarOpen = !sidebarOpen;
+      const sb = document.getElementById('map-sidebar');
+      const btn = document.getElementById('sidebar-toggle');
+      sb.classList.toggle('collapsed', !sidebarOpen);
+      btn.innerHTML = sidebarOpen ? '<i class="bi bi-chevron-left"></i>' : '<i class="bi bi-chevron-right"></i>';
+      setTimeout(() => window.dispatchEvent(new Event('resize')), 300);
+    }
+  </script>
+</body>
+</html>
